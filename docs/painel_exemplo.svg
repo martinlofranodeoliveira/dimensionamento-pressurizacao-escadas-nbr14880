@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" width="1440" height="900">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1329"/>
+      <stop offset="100%" stop-color="#1e2238"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1b2440" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#121829" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="fanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 26px; font-weight: 700; fill: #ffffff; }
+    .subtitle { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 14px; fill: #94a3b8; }
+    .norma-badge { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #38bdf8; }
+    .kpi-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #94a3b8; text-transform: uppercase; letter-spacing: 0.5px; }
+    .kpi-value { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 28px; font-weight: 700; fill: #f8fafc; }
+    .kpi-sub { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #38bdf8; }
+    .card-title { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 600; fill: #e2e8f0; }
+    .tbl-header { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: 600; fill: #cbd5e1; }
+    .tbl-cell { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #94a3b8; }
+    .diagram-text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-size: 12px; fill: #e2e8f0; }
+  </style>
+  <rect width="1440" height="900" fill="url(#bgGrad)"/>
+  <!-- Header -->
+  <rect x="40" y="30" width="1360" height="90" rx="12" fill="url(#cardGrad)" stroke="#273559" stroke-width="1" filter="url(#shadow)"/>
+  <rect x="40" y="30" width="6" height="90" rx="3" fill="url(#fanGrad)"/>
+  <text x="65" y="65" class="title">LOFRANO TECNOLOGIA · SISTEMAS DE PRESSURIZAÇÃO DE ESCADAS</text>
+  <text x="65" y="95" class="subtitle">Edificação: Edifício Residencial Torre das Américas | Tipologia: ENCLAUSURADA_PROTEGIDA | Sobrepressão Normativa: 50 Pa</text>
+  <rect x="1200" y="55" width="180" height="36" rx="6" fill="#1e293b" stroke="#0284c7" stroke-width="1.5"/>
+  <text x="1290" y="78" text-anchor="middle" class="norma-badge">ABNT NBR 14880:2014</text>
+  <!-- KPI 1 -->
+  <rect x="40" y="140" width="325" height="100" rx="10" fill="url(#cardGrad)" stroke="#273559" stroke-width="1" filter="url(#shadow)"/>
+  <text x="60" y="168" class="kpi-title">Vazão do Ventilador</text>
+  <text x="60" y="204" class="kpi-value">22260.1 m³/h</text>
+  <text x="60" y="226" class="kpi-sub">6.18 m³/s (+15% Dutos)</text>
+  <!-- KPI 2 -->
+  <rect x="385" y="140" width="325" height="100" rx="10" fill="url(#cardGrad)" stroke="#273559" stroke-width="1" filter="url(#shadow)"/>
+  <text x="405" y="168" class="kpi-title">Pressão Estática Total</text>
+  <text x="405" y="204" class="kpi-value">330 Pa</text>
+  <text x="405" y="226" class="kpi-sub">50 Pa Escada + Rede Dutos</text>
+  <!-- KPI 3 -->
+  <rect x="730" y="140" width="325" height="100" rx="10" fill="url(#cardGrad)" stroke="#273559" stroke-width="1" filter="url(#shadow)"/>
+  <text x="750" y="168" class="kpi-title">Potência do Motor</text>
+  <text x="750" y="204" class="kpi-value">5.0 cv</text>
+  <text x="750" y="226" class="kpi-sub">Trifásico (2.9 kW eixo)</text>
+  <!-- KPI 4 -->
+  <rect x="1075" y="140" width="325" height="100" rx="10" fill="url(#cardGrad)" stroke="#273559" stroke-width="1" filter="url(#shadow)"/>
+  <text x="1095" y="168" class="kpi-title">Força na Maçaneta</text>
+  <text x="1095" y="204" class="kpi-value">82.3 N</text>
+  <text x="1095" y="226" class="kpi-sub">Limite: 110 N (CONFORME)</text>
+  <!-- Diagrama em Corte da Caixa de Escada Pressurizada -->
+  <rect x="40" y="260" width="670" height="590" rx="12" fill="url(#cardGrad)" stroke="#273559" stroke-width="1" filter="url(#shadow)"/>
+  <text x="65" y="295" class="card-title">Corte Esquemático: Ventilador, Duto Vertical e Caixa Enclausurada</text>
+  <!-- Ventilador e Tomada de Ar -->
+  <rect x="80" y="330" width="220" height="90" rx="8" fill="#1e293b" stroke="#0284c7" stroke-width="2"/>
+  <text x="190" y="360" text-anchor="middle" class="card-title" fill="#38bdf8">VENTILADOR CENTRÍFUGO</text>
+  <text x="190" y="385" text-anchor="middle" class="diagram-text">22260.1 m³/h @ 330 Pa</text>
+  <text x="190" y="405" text-anchor="middle" class="kpi-sub">Motor Trifásico 5.0 cv</text>
+  <!-- Duto Vertical -->
+  <rect x="165" y="420" width="50" height="400" fill="#0f172a" stroke="#0284c7" stroke-width="2"/>
+  <text x="190" y="620" text-anchor="middle" class="diagram-text" fill="#94a3b8" transform="rotate(-90 190 620)">Duto Vertical de Injeção</text>
+  <!-- Caixa de Escada -->
+  <rect x="250" y="420" width="430" height="400" rx="4" fill="#162035" stroke="#475569" stroke-width="2"/>
+  <text x="465" y="450" text-anchor="middle" class="card-title">Caixa de Escada Pressurizada (+50 Pa)</text>
+  <line x1="250" y1="480" x2="680" y2="480" stroke="#334155" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="215" y="465" width="35" height="15" fill="#38bdf8"/>
+  <polygon points="255,472 265,465 265,480" fill="#38bdf8"/>
+  <rect x="620" y="450" width="15" height="30" fill="#f59e0b" stroke="#d97706" stroke-width="1"/>
+  <text x="280" y="470" class="diagram-text" font-weight="600">Pavimento Superior</text>
+  <text x="280" y="488" class="tbl-cell">Porta P-90 Fechada (Fresta 50 Pa)</text>
+  <line x1="250" y1="560" x2="680" y2="560" stroke="#334155" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="215" y="545" width="35" height="15" fill="#38bdf8"/>
+  <polygon points="255,552 265,545 265,560" fill="#38bdf8"/>
+  <rect x="620" y="530" width="15" height="30" fill="#f59e0b" stroke="#d97706" stroke-width="1"/>
+  <text x="280" y="550" class="diagram-text" font-weight="600">Pavimento Tipo</text>
+  <text x="280" y="568" class="tbl-cell">Grelha Insuflamento de Ar (5 m/s)</text>
+  <line x1="250" y1="640" x2="680" y2="640" stroke="#334155" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="215" y="625" width="35" height="15" fill="#38bdf8"/>
+  <polygon points="255,632 265,625 265,640" fill="#38bdf8"/>
+  <rect x="620" y="610" width="15" height="30" fill="#f59e0b" stroke="#d97706" stroke-width="1"/>
+  <text x="280" y="630" class="diagram-text" font-weight="600">Pavimento Sinistrado</text>
+  <text x="280" y="648" class="tbl-cell">Porta Aberta: Escape 1.0 m/s</text>
+  <line x1="250" y1="720" x2="680" y2="720" stroke="#334155" stroke-width="1" stroke-dasharray="4,4"/>
+  <rect x="215" y="705" width="35" height="15" fill="#38bdf8"/>
+  <polygon points="255,712 265,705 265,720" fill="#38bdf8"/>
+  <rect x="620" y="690" width="15" height="30" fill="#f59e0b" stroke="#d97706" stroke-width="1"/>
+  <text x="280" y="710" class="diagram-text" font-weight="600">Térreo / Saída de Emergência</text>
+  <text x="280" y="728" class="tbl-cell">Descarga Externa Aberta (Fuga)</text>
+  <!-- Quadro Comparativo de Engenharia -->
+  <rect x="730" y="260" width="670" height="590" rx="12" fill="url(#cardGrad)" stroke="#273559" stroke-width="1" filter="url(#shadow)"/>
+  <text x="755" y="295" class="card-title">Balanço Aerodinâmico e Condicionantes Normativas</text>
+  <rect x="755" y="330" width="620" height="30" rx="4" fill="#1e293b"/>
+  <text x="765" y="350" class="tbl-header">Parâmetro de Projeto</text>
+  <text x="1050" y="350" class="tbl-header">Estágio 1</text>
+  <text x="1190" y="350" class="tbl-header">Estágio 2</text>
+  <text x="1310" y="350" class="tbl-header">Norma</text>
+  <rect x="755" y="370" width="620" height="36" rx="4" fill="#17223b"/>
+  <text x="765" y="392" class="tbl-cell" font-weight="600" fill="#f1f5f9">Condição Operacional</text>
+  <text x="1050" y="392" class="tbl-cell">Portas Fechadas</text>
+  <text x="1190" y="392" class="tbl-cell" font-weight="600" fill="#38bdf8">Portas Abertas</text>
+  <text x="1310" y="392" class="tbl-cell">-</text>
+  <rect x="755" y="412" width="620" height="36" rx="4" fill="#131a2e"/>
+  <text x="765" y="434" class="tbl-cell" font-weight="600" fill="#f1f5f9">Diferencial de Pressão / Velocidade</text>
+  <text x="1050" y="434" class="tbl-cell">50 Pa</text>
+  <text x="1190" y="434" class="tbl-cell" font-weight="600" fill="#38bdf8">1.0 m/s</text>
+  <text x="1310" y="434" class="tbl-cell">NBR 14880</text>
+  <rect x="755" y="454" width="620" height="36" rx="4" fill="#17223b"/>
+  <text x="765" y="476" class="tbl-cell" font-weight="600" fill="#f1f5f9">Portas Abertas Simuladas</text>
+  <text x="1050" y="476" class="tbl-cell">0 un</text>
+  <text x="1190" y="476" class="tbl-cell" font-weight="600" fill="#38bdf8">2 un</text>
+  <text x="1310" y="476" class="tbl-cell">>= 2 un</text>
+  <rect x="755" y="496" width="620" height="36" rx="4" fill="#131a2e"/>
+  <text x="765" y="518" class="tbl-cell" font-weight="600" fill="#f1f5f9">Vazão Requerida de Ar</text>
+  <text x="1050" y="518" class="tbl-cell">12383.0 m³/h</text>
+  <text x="1190" y="518" class="tbl-cell" font-weight="600" fill="#38bdf8">19357.0 m³/h</text>
+  <text x="1310" y="518" class="tbl-cell">Cálculo</text>
+  <rect x="755" y="538" width="620" height="36" rx="4" fill="#17223b"/>
+  <text x="765" y="560" class="tbl-cell" font-weight="600" fill="#f1f5f9">Vazão Nominal (+15% Dutos)</text>
+  <text x="1050" y="560" class="tbl-cell">14240.1 m³/h</text>
+  <text x="1190" y="560" class="tbl-cell" font-weight="600" fill="#38bdf8">22260.1 m³/h</text>
+  <text x="1310" y="560" class="tbl-cell">Adotado</text>
+  <rect x="755" y="580" width="620" height="36" rx="4" fill="#131a2e"/>
+  <text x="765" y="602" class="tbl-cell" font-weight="600" fill="#f1f5f9">Pressão Estática de Projeto</text>
+  <text x="1050" y="602" class="tbl-cell">330 Pa</text>
+  <text x="1190" y="602" class="tbl-cell" font-weight="600" fill="#38bdf8">330 Pa</text>
+  <text x="1310" y="602" class="tbl-cell">Rede Dutos</text>
+  <rect x="755" y="622" width="620" height="36" rx="4" fill="#17223b"/>
+  <text x="765" y="644" class="tbl-cell" font-weight="600" fill="#f1f5f9">Área Mínima do Duto Vertical</text>
+  <text x="1050" y="644" class="tbl-cell">0.52 m²</text>
+  <text x="1190" y="644" class="tbl-cell" font-weight="600" fill="#38bdf8">0.52 m²</text>
+  <text x="1310" y="644" class="tbl-cell">Velocidade</text>
+  <rect x="755" y="664" width="620" height="36" rx="4" fill="#131a2e"/>
+  <text x="765" y="686" class="tbl-cell" font-weight="600" fill="#f1f5f9">Força na Maçaneta da Porta</text>
+  <text x="1050" y="686" class="tbl-cell">82.3 N</text>
+  <text x="1190" y="686" class="tbl-cell" font-weight="600" fill="#38bdf8">-</text>
+  <text x="1310" y="686" class="tbl-cell"><= 110 N</text>
+  <!-- Footer -->
+  <rect x="755" y="780" width="620" height="50" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="770" y="802" class="diagram-text" fill="#94a3b8">Critérios: Pressão 50 Pa · Escape &ge; 1.0 m/s · Força Abertura &le; 110 N</text>
+  <text x="770" y="820" class="diagram-text" font-weight="700" fill="#10b981">ABNT NBR 14880:2014 · DIMENSIONAMENTO DE PRESSURIZAÇÃO APROVADO</text>
+</svg>

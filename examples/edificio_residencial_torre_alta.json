@@ -1,0 +1,12 @@
+{
+  "nome_edificio": "Edifício Residencial Torre das Américas",
+  "quantidade_pavimentos": 28,
+  "altura_total_m": "84.0",
+  "tipo_escada": "enclausurada_protegida",
+  "tipo_duto": "metalico_galvanizado",
+  "possui_sprinklers": true,
+  "quantidade_portas_simples": 28,
+  "quantidade_portas_duplas": 0,
+  "portas_abertas_projeto": 2,
+  "perda_carga_distribuicao_pa": "280"
+}

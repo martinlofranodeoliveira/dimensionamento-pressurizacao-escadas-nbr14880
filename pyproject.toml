@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dimensionamento-pressurizacao-escadas-nbr14880"
+version = "1.0.0"
+description = "Motor de dimensionamento de sistemas de pressurização de escadas de segurança conforme ABNT NBR 14880:2014 em Python puro com aritmética exata Zero Float."
+readme = "README.md"
+authors = [{ name = "LOFRANO TECNOLOGIA", email = "contato@lofranotecnologia.com.br" }]
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Manufacturing",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering",
+    "Typing :: Typed",
+]
+keywords = [
+    "engenharia-de-seguranca",
+    "nbr14880",
+    "pressurizacao-de-escadas",
+    "ventilador-centrifugo",
+    "sobrepressao",
+    "portas-corta-fogo",
+    "vazao-de-ar",
+    "zero-float",
+    "abnt",
+]
+
+[project.scripts]
+pressurizacao-nbr14880 = "pressurizacao_nbr14880.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+pressurizacao_nbr14880 = ["py.typed"]

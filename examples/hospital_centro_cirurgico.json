@@ -1,0 +1,12 @@
+{
+  "nome_edificio": "Complexo Hospitalar São Lucas - Bloco Cirúrgico",
+  "quantidade_pavimentos": 8,
+  "altura_total_m": "32.0",
+  "tipo_escada": "pressurizada_direta",
+  "tipo_duto": "metalico_galvanizado",
+  "possui_sprinklers": false,
+  "quantidade_portas_simples": 8,
+  "quantidade_portas_duplas": 1,
+  "portas_abertas_projeto": 2,
+  "perda_carga_distribuicao_pa": "220"
+}

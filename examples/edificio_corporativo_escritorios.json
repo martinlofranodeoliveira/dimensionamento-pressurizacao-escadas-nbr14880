@@ -1,0 +1,12 @@
+{
+  "nome_edificio": "Edifício Corporativo Berrini Business Tower",
+  "quantidade_pavimentos": 16,
+  "altura_total_m": "56.0",
+  "tipo_escada": "com_antecamara",
+  "tipo_duto": "alvenaria_concreto",
+  "possui_sprinklers": true,
+  "quantidade_portas_simples": 16,
+  "quantidade_portas_duplas": 2,
+  "portas_abertas_projeto": 2,
+  "perda_carga_distribuicao_pa": "240"
+}
